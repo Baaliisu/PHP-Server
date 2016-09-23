@@ -9,5 +9,12 @@ class client
       
     $this->instance = new SoapClient(NULL, $params);
   }
+  
+  public function getName($id_array);
+  {
+    return $this->instance->__soapCall('getStudentName', $id_array);
+  {
 }
+
+$client = new client;
 $>
