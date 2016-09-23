@@ -1,4 +1,4 @@
-<?php>
+<?php
 /* GET PHPMYADMIN, CREATE A DATABASE TITLED "soap" AND CREATE A TABLE CALLED "students" WITH 2 COLUMNS (Id and Name). Name; Type=Varchar, Length=32. Id; Type=INT, Length=1, Null=Checked, Index=Primary, A_=Checked   */
 class server
 {
